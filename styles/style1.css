@@ -1,0 +1,498 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.NavBar .NavImg {
+    display: inline-block;
+
+}
+
+.NavImg img {
+
+    width: 30%;
+    margin: 15px 120px;
+}
+
+.NavBar .NavLinks {
+    margin: 25px 90px;
+    color: white;
+    font-size: 20px;
+    float: right;
+    text-align: right;
+
+}
+
+.NavBar .NavLinks a {
+
+    padding: 10px;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+}
+
+.clr {
+    clear: both;
+}
+
+.Home {
+
+    background-image: url(../images/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-size: 100%;
+    background-position: center;
+}
+
+.Home .HomeWords {
+    color: rgb(255, 255, 255);
+    width: 55%;
+    font-family: 'Alegreya Sans';
+    margin: 160px 350px 60px;
+    text-align: center;
+}
+
+.Home .HomeWords p {
+    font-size: 22px;
+}
+
+.Home .HomeWords h1 {
+    font-size: 76px;
+}
+
+.Home .HomeBtns {
+    text-align: center;
+}
+
+.Home .HomeBtns a {
+    font-family: 'Alegreya Sans"';
+
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 4px;
+    padding: 16px 20px;
+    margin: 40px 30px 0px 0px;
+    font-weight: bold;
+}
+
+
+.Home .HomeBtns .Hbtn1 {
+    border: transparent;
+    background-color: #8E7754;
+
+}
+
+.Home .HomeBtns a:hover {
+    background-color: white;
+    color: black;
+}
+
+.Acontainer {
+    margin: 40px;
+
+
+}
+
+.About .AImg {
+    display: inline-block;
+    width: 40%;
+
+}
+
+.About .AImg img {
+
+    background-color: aqua;
+    width: 100%;
+
+}
+
+.About .AContent {
+    display: inline-block;
+    width: 54%;
+    vertical-align: top;
+    margin-top: 30px;
+    margin-left: 40px;
+
+}
+
+.About .AContent .title {
+    font-family: 'Alegreya', serif;
+    margin: 20px 0px 20px 10px;
+    font-size: 32px;
+    color: #686868;
+}
+
+.About .AContent p {
+    font-family: 'Alegreya';
+    margin: 10px;
+    font-size: 17px;
+    line-height: 30px;
+    color: #686868;
+}
+
+.About .Apoints {
+    margin-top: 30px;
+    margin-left: 20px;
+
+}
+
+.About .Apoints img {
+
+    width: 80%;
+}
+
+.About .Apoints .Apoint1 div {
+    display: inline-block;
+
+    vertical-align: top;
+}
+
+.About .Apoints .Apoint2 div {
+    display: inline-block;
+
+    vertical-align: top;
+}
+
+.About .Apoints .Apoint3 div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.About .Apoints .Apoint4 div {
+    display: inline-block;
+
+    vertical-align: top;
+}
+
+.Location {
+    background-color: rgb(250, 249, 249);
+}
+
+.Location .Lcontent {
+    display: inline-block;
+    margin-top: 200px;
+    margin-left: 65px;
+    width: 40%;
+    vertical-align: top;
+}
+
+.Location .Lcontent p {
+    font-family: 'Alegreya', serif;
+    margin: 20px 0px 20px 10px;
+    font-size: 32px;
+    color: #090101;
+
+}
+
+.Location .Lcontent .p1 {
+    font-family: 'Alegreya';
+    margin: 10px;
+    font-size: 17px;
+    line-height: 30px;
+    color: #686868;
+
+}
+
+.Location .Lcontent .p2 {
+    font-family: 'Alegreya';
+    margin: 10px;
+    font-size: 17px;
+    line-height: 30px;
+    color: #686868;
+
+}
+
+.Location .Limage {
+    margin-left: 80px;
+    margin-bottom: 50px;
+    display: inline-block;
+    width: 50%;
+
+
+}
+
+.Location .Limage img {
+    margin-top: 100px;
+    margin-bottom: 60px;
+    width: 80%;
+
+
+}
+
+.Backing {
+    padding: 0px 70px;
+
+}
+
+.Backing .Bhead {
+    text-align: center;
+}
+
+.Backing .Bhead .p1 {
+    font-family: 'Alegreya';
+    margin: 10px;
+    font-size: 30px;
+    line-height: 76px;
+    color: #030303;
+
+}
+
+.Backing .Bhead .p2 {
+    font-family: 'Alegreya';
+    margin: 10px;
+    font-size: 17px;
+    line-height: 30px;
+    color: #686868;
+    margin-bottom: 30px;
+
+}
+
+
+.Backing .Bitems .Bpoint1 {
+    float: left;
+    width: 33.33%;
+
+
+}
+
+.Backing .Bitems .Bpoint2 {
+    float: left;
+    width: 33.33%;
+
+
+}
+
+.Backing .Bitems .Bpoint3 {
+    float: left;
+    width: 33.33%;
+
+
+}
+
+
+.Backing .Bitems img {
+    width: 90%;
+    margin-left: 30px;
+    margin-bottom: 20px;
+
+
+}
+
+
+.Backing .Bitems p {
+    font-size: 17px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-left: 60px;
+    width: 80%
+}
+
+.Backing .Bitems .p1 {
+    font-family: 'Alegreya';
+
+    font-size: 20px;
+    text-align: center;
+    color: #030303;
+}
+
+.Contact {
+    float: left;
+    width: 50%;
+    margin-left: 90px;
+}
+
+.CUImage {
+    float: right;
+    width: 40%;
+}
+
+.CUImage img {
+    width: 80%;
+}
+
+.CA .Contact .title {
+    font-family: 'Alegreya', serif;
+    margin: 20px 0px 20px 0px;
+    font-size: 32px;
+    color: #000000;
+}
+
+.CA .Contact p {
+    font-family: 'Alegreya';
+    font-size: 17px;
+    line-height: 30px;
+    color: #686868;
+
+}
+
+.Contact .Cpoints {
+    margin-top: 30px;
+
+}
+
+.Contact .Cpoints .Cpoint1 div {
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.Contact .Cpoints .Cpoint2 div {
+    display: inline-block;
+
+    vertical-align: top;
+}
+
+.Contact .Cpoints .Cpoint3 div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.Contact .Cpoints .Cpoint4 div {
+    display: inline-block;
+
+    vertical-align: top;
+}
+
+.Contact .Cpoints img {
+    width: 60%;
+    margin-left: 7px;
+    padding: 3px;
+}
+
+.CA {
+
+    margin: 50px;
+}
+
+
+
+.conto {
+    background-color: #403D38;
+    padding: 30px;
+
+
+}
+
+.LL1 {
+    float: left;
+    width: 20%;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.LL1,
+.LL2,
+.LL3,
+.LL4,
+.hh {
+    font-family: 'Alegreya';
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+
+}
+
+.LL4 .hh {
+    font-family: 'Alegreya';
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+
+}
+
+.LL1,
+.LL2,
+.LL3,
+.LL4 p {
+    font-family: 'Alegreya';
+    font-size: 15px;
+    line-height: 30px;
+    color: #969393;
+
+}
+
+
+
+
+.LL1 {
+
+    float: left;
+    width: 20%;
+
+
+
+
+}
+
+.LL2 {
+    float: left;
+    width: 25%;
+
+
+
+}
+
+.LL3 {
+    float: left;
+    width: 20%;
+
+
+}
+
+.LL4 {
+    float: left;
+    width: 20%;
+
+
+
+
+}
+
+.Lpoint1 div {
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+footer {
+    background-color: #353330;
+    text-align: center;
+}
+
+footer .fimg1 {
+    text-align: center;
+    width: 20%;
+    background-color: #353330;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    padding: 30px;
+
+}
+
+footer p {
+    color: gray;
+    text-align: center;
+
+
+}
+
+footer .fimg2 {
+    text-align: center;
+    width: 15%;
+    background-color: #353330;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+}
+
+footer img {
+
+    width: 20%;
+    background-color: #353330;
+}
